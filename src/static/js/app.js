@@ -4,7 +4,9 @@ function App() {
         <Container>
            
             <Row>
-                h1 {text-align:center};
+                <style type="text/css">
+                    h1 {text-align:center}
+                </style>
                 <h1> Todo app </h1>
                 
             </Row>
