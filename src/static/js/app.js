@@ -1,12 +1,12 @@
 function App() {
-    const { Container, Row, Col } = ReactBootstrap;
+    const { Container, Row, Col, h1 } = ReactBootstrap;
     return (
         <Container>
-            
-                
+           
             <Row>
-                <td>Todo list</td>
+                <h1> todo app </h1>
                 <Col md={{ offset: 3, span: 6 }}>
+                
                     <TodoListCard />
                 </Col>
             </Row>
