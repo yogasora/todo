@@ -2,12 +2,7 @@ function App() {
     const { Container, Row, Col, } = ReactBootstrap;
     return (
         <Container>
-           
-            <Row>
-                <p className="text-center">Todo app</p>
-       
-                
-            </Row>
+            <h1 className="text-center">Todo App</h1>
             <Row>
                 <Col md={{ offset: 3, span: 6 }}>
                 
