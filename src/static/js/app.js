@@ -4,7 +4,9 @@ function App() {
         <Container>
            
             <Row>
+                <Col md={{ offset: 3, span: 6 }}>
                 <h1> Todo app </h1>
+                
             </Row>
             <Row>
                 <Col md={{ offset: 3, span: 6 }}>
